@@ -1,0 +1,9 @@
+<PISI>
+	<SourceName>PisiLinux</SourceName>
+	<Version>2.0</Version>
+	<Description xml:lang="tr">PisiLinux 2.0 Deposu</Description>
+	<Description xml:lang="en">PisiLinux 2.0 Repository</Description>
+	<Description xml:lang="ru">PisiLinux 2.0 Репозиторий</Description>
+	<Type>Core</Type>
+	<BinaryName>PisiLinux</BinaryName>
+</PISI>
