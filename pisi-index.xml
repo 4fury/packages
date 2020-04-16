@@ -26,9 +26,9 @@
             <Dependency>libjpeg-turbo</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-01-17</Date>
-                <Version>2.1.5</Version>
+            <Update release="2">
+                <Date>2020-04-16</Date>
+                <Version>2.1.6</Version>
                 <Comment>First build.</Comment>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -38,11 +38,11 @@
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1321193</InstalledSize>
-        <PackageSize>522601</PackageSize>
-        <PackageHash>30e8c238511ce57a11f90681dc8b18e48cab1d2f</PackageHash>
-        <InstallTarHash>fe451a2d6f5d2330389ddec397b20b1ad2ec63b9</InstallTarHash>
-        <PackageURI>a/azpainter/azpainter-2.1.5-1-p2-x86_64.pisi</PackageURI>
+        <InstalledSize>1321936</InstalledSize>
+        <PackageSize>523979</PackageSize>
+        <PackageHash>7fbc4d83c5a5c6fbeecd9fcbc84db64a22a6fb89</PackageHash>
+        <InstallTarHash>b1bf190332f3a9622e7f0c08dac802e1dbe738fa</InstallTarHash>
+        <PackageURI>a/azpainter/azpainter-2.1.6-2-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>azpainter</Name>
@@ -91,8 +91,8 @@
     </Package>
     <Package>
         <Name>azpainterb</Name>
-        <Summary xml:lang="en">azpainterb</Summary>
-        <Description xml:lang="en">Paint software for Linux which can be used for various purposes such as dot editing, illustration, retouching, etc.</Description>
+        <Summary xml:lang="en">A simple full-color paint software.</Summary>
+        <Description xml:lang="en">Paint software for Linux which can be used for various purposes such as dot editing, illustration, retouching, etc. You can sense pen pressure with XInput2.</Description>
         <IsA>app:gui</IsA>
         <PartOf>multimedia.graphics</PartOf>
         <License>GPLv3</License>
@@ -107,9 +107,9 @@
             <Dependency>libjpeg-turbo</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
+            <Update release="2">
                 <Date>2019-04-30</Date>
-                <Version>1.1.1</Version>
+                <Version>1.1.2</Version>
                 <Comment>First build.</Comment>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -119,11 +119,11 @@
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>991531</InstalledSize>
-        <PackageSize>409614</PackageSize>
-        <PackageHash>47c683c77328deb24977904d4bbb3d8081dde12f</PackageHash>
-        <InstallTarHash>c0121d60ed8957300408f13733b11648e7a8a4ba</InstallTarHash>
-        <PackageURI>a/azpainterb/azpainterb-1.1.1-1-p2-x86_64.pisi</PackageURI>
+        <InstalledSize>993469</InstalledSize>
+        <PackageSize>409651</PackageSize>
+        <PackageHash>1a51e87d2bc024338a442e4e636cf5f0c8fcc309</PackageHash>
+        <InstallTarHash>080f50d3bb90e290396d308cdfbf7617c728954a</InstallTarHash>
+        <PackageURI>a/azpainterb/azpainterb-1.1.2-2-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>azpainterb</Name>
