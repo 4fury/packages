@@ -9,51 +9,6 @@
         <BinaryName>PisiLinux</BinaryName>
     </Distribution>
     <Package>
-        <Name>azpainter</Name>
-        <Summary xml:lang="en">A full color painting software for illustration drawing.</Summary>
-        <Description xml:lang="en">Full color painting software for Linux for illustration drawing. This is not suitable for dot editing. Since the color is handled with 16 bit color (15 bit fixed point number) internally, the accuracy of color rises, but the memory is consumed correspondingly.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>multimedia.graphics</PartOf>
-        <License>GPLv3</License>
-        <RuntimeDependencies>
-            <Dependency>zlib</Dependency>
-            <Dependency>libXi</Dependency>
-            <Dependency>libpng</Dependency>
-            <Dependency>libX11</Dependency>
-            <Dependency>libXext</Dependency>
-            <Dependency>freetype</Dependency>
-            <Dependency>fontconfig</Dependency>
-            <Dependency>libjpeg-turbo</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2020-04-16</Date>
-                <Version>2.1.6</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1464935</InstalledSize>
-        <PackageSize>548340</PackageSize>
-        <PackageHash>8a5c2b4a628707555b6f5e29d84e200c8cc3c61d</PackageHash>
-        <InstallTarHash>98d2339bf05b9f9d5d5323c20e63e0ec05ef55d6</InstallTarHash>
-        <PackageURI>a/azpainter/azpainter-2.1.6-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>azpainter</Name>
-            <Homepage>http://azsky2.html.xdomain.jp/linux/azpainter.html</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>adwaita-qt</Name>
         <Summary xml:lang="en">A style to bend Qt applications to look like they belong into GNOME Shell.</Summary>
         <Description xml:lang="en">A native style to bend Qt4 and Qt5 applications to look like they belong into GNOME Shell.</Description>
@@ -83,95 +38,6 @@
         <Source>
             <Name>adwaita-qt</Name>
             <Homepage>https://github.com/FedoraQt/adwaita-qt</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>azpainterb</Name>
-        <Summary xml:lang="en">A simple full-color paint software.</Summary>
-        <Description xml:lang="en">Paint software for Linux which can be used for various purposes such as dot editing, illustration, retouching, etc. You can sense pen pressure with XInput2.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>multimedia.graphics</PartOf>
-        <License>GPLv3</License>
-        <RuntimeDependencies>
-            <Dependency>zlib</Dependency>
-            <Dependency>libXi</Dependency>
-            <Dependency>libpng</Dependency>
-            <Dependency>libX11</Dependency>
-            <Dependency>libXext</Dependency>
-            <Dependency>freetype</Dependency>
-            <Dependency>fontconfig</Dependency>
-            <Dependency>libjpeg-turbo</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2019-04-30</Date>
-                <Version>1.1.2</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1108974</InstalledSize>
-        <PackageSize>430847</PackageSize>
-        <PackageHash>9f846feca177b5cc01d3860bc7516b109004237c</PackageHash>
-        <InstallTarHash>012aae182839c1dacf96e334765145c62190f7ac</InstallTarHash>
-        <PackageURI>a/azpainterb/azpainterb-1.1.2-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>azpainterb</Name>
-            <Homepage>http://azsky2.html.xdomain.jp/linux/azpainterb.html</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>ctpl</Name>
-        <Summary xml:lang="en">CTPL − C Template (Parser) Library</Summary>
-        <Description xml:lang="en">CTPL is a template engine library written in C and distributed under the terms of the GNU GPLv3+</Description>
-        <PartOf>unknown</PartOf>
-        <License>GPLv3</License>
-        <RuntimeDependencies>
-            <Dependency>glib2</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2019.10.31</Date>
-                <Version>0.3.4</Version>
-                <Comment>Rebuild.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="1">
-                <Date>2019.04.21</Date>
-                <Version>0.3.4</Version>
-                <Comment>First build</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>148906</InstalledSize>
-        <PackageSize>47881</PackageSize>
-        <PackageHash>e8fb520e500222d017fd131bf6727ce75505dae6</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>c/ctpl/ctpl-0.3.4-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ctpl</Name>
-            <Homepage>https://ctpl.tuxfamily.org/</Homepage>
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -379,61 +245,6 @@
             <Packager>
                 <Name>Osman Erkan</Name>
                 <Email>osman.erkan@pisilinux.org</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>flacon</Name>
-        <Summary xml:lang="en">Audio File Encoder</Summary>
-        <Description xml:lang="en">Flacon extracts individual tracks from one big audio file containing the entire album of music and saves them as separate audio files.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>multimedia.sound</PartOf>
-        <License>LGPLv2.1</License>
-        <RuntimeDependencies>
-            <Dependency>sox</Dependency>
-            <Dependency>faac</Dependency>
-            <Dependency>flac</Dependency>
-            <Dependency>lame</Dependency>
-            <Dependency>libcue</Dependency>
-            <Dependency>libgcc</Dependency>
-            <Dependency>wavpack</Dependency>
-            <Dependency>uchardet</Dependency>
-            <Dependency>qt5-base</Dependency>
-            <Dependency>opus-tools</Dependency>
-            <Dependency>vorbis-tools</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2019-10-01</Date>
-                <Version>5.5.1</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="1">
-                <Date>2019-07-31</Date>
-                <Version>5.4.0</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>3804852</InstalledSize>
-        <PackageSize>1169582</PackageSize>
-        <PackageHash>de8b9dedd6a02893e849a2218d354d98d42a6e3d</PackageHash>
-        <InstallTarHash>092aeba88c18b8e1519ebeb00753906677d9cef3</InstallTarHash>
-        <PackageURI>f/flacon/flacon-5.5.1-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>flacon</Name>
-            <Homepage>https://flacon.github.io/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
             </Packager>
         </Source>
     </Package>
@@ -671,21 +482,32 @@
         </Source>
     </Package>
     <Package>
-        <Name>geh</Name>
-        <Summary xml:lang="en">A simple commandline image viewer</Summary>
-        <Description xml:lang="en">Geh is a simple commandline image viewer written in C/Gtk+ with various nice features.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>unknown</PartOf>
-        <License>GPLv2</License>
+        <Name>gdl</Name>
+        <Summary xml:lang="en">Gnome Docking library</Summary>
+        <Description xml:lang="en">Provides docking features for gtk+.</Description>
+        <IsA>library</IsA>
+        <PartOf>programming.misc</PartOf>
+        <License>LGPLv2</License>
         <RuntimeDependencies>
-            <Dependency>gtk2</Dependency>
+            <Dependency>atk</Dependency>
+            <Dependency>gtk3</Dependency>
+            <Dependency>cairo</Dependency>
             <Dependency>glib2</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libxml2</Dependency>
             <Dependency>gdk-pixbuf</Dependency>
         </RuntimeDependencies>
         <History>
+            <Update release="2">
+                <Date>2019-10-31</Date>
+                <Version>3.34.0</Version>
+                <Comment>Ver. bump</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
             <Update release="1">
-                <Date>2019-12-10</Date>
-                <Version>0.2.0</Version>
+                <Date>2019-07-27</Date>
+                <Version>3.28.0</Version>
                 <Comment>First build.</Comment>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -695,15 +517,15 @@
         <Distribution>PisiLinux</Distribution>
         <DistributionRelease>2.0</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>59173</InstalledSize>
-        <PackageSize>21367</PackageSize>
-        <PackageHash>372f99a987714e2bfa04e33d1000360cdfeae66b</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>g/geh/geh-0.2.0-1-p2-x86_64.pisi</PackageURI>
+        <InstalledSize>1512525</InstalledSize>
+        <PackageSize>244644</PackageSize>
+        <PackageHash>b510b8e63346e9ccc9597948fc2de3a5bf451cb6</PackageHash>
+        <InstallTarHash>85d0be2c92d44124d8dc66b824202b75a703e5e9</InstallTarHash>
+        <PackageURI>g/gdl/gdl-3.34.0-2-p2-x86_64.pisi</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>geh</Name>
-            <Homepage>https://github.com/4fury/save_them</Homepage>
+            <Name>gdl</Name>
+            <Homepage>https://gitlab.gnome.org/GNOME/gdl</Homepage>
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -811,57 +633,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>gdl</Name>
-        <Summary xml:lang="en">Gnome Docking library</Summary>
-        <Description xml:lang="en">Provides docking features for gtk+.</Description>
-        <IsA>library</IsA>
-        <PartOf>programming.misc</PartOf>
-        <License>LGPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>atk</Dependency>
-            <Dependency>gtk3</Dependency>
-            <Dependency>cairo</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>pango</Dependency>
-            <Dependency>libxml2</Dependency>
-            <Dependency>gdk-pixbuf</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2019-10-31</Date>
-                <Version>3.34.0</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="1">
-                <Date>2019-07-27</Date>
-                <Version>3.28.0</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1512525</InstalledSize>
-        <PackageSize>244644</PackageSize>
-        <PackageHash>b510b8e63346e9ccc9597948fc2de3a5bf451cb6</PackageHash>
-        <InstallTarHash>85d0be2c92d44124d8dc66b824202b75a703e5e9</InstallTarHash>
-        <PackageURI>g/gdl/gdl-3.34.0-2-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>gdl</Name>
-            <Homepage>https://gitlab.gnome.org/GNOME/gdl</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>gtk-theme-lounge</Name>
         <Summary xml:lang="en">Simple and clean gtk theme</Summary>
         <Description xml:lang="en">Simple and clean gtk theme, based on original Adwaita(supported: gtk2, gtk3, xfce 4.12+).</Description>
@@ -915,6 +686,46 @@
         <Source>
             <Name>gtk-theme-lounge</Name>
             <Homepage>https://github.com/monday15/lounge-gtk-theme</Homepage>
+            <Packager>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>geh</Name>
+        <Summary xml:lang="en">A simple commandline image viewer</Summary>
+        <Description xml:lang="en">Geh is a simple commandline image viewer written in C/Gtk+ with various nice features.</Description>
+        <IsA>app:gui</IsA>
+        <PartOf>unknown</PartOf>
+        <License>GPLv2</License>
+        <RuntimeDependencies>
+            <Dependency>gtk2</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-12-10</Date>
+                <Version>0.2.0</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>59173</InstalledSize>
+        <PackageSize>21367</PackageSize>
+        <PackageHash>372f99a987714e2bfa04e33d1000360cdfeae66b</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>g/geh/geh-0.2.0-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>geh</Name>
+            <Homepage>https://github.com/4fury/save_them</Homepage>
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -1467,41 +1278,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>nocsd</Name>
-        <Summary xml:lang="en">A hack to disable gtk+ 3 client side decoration</Summary>
-        <Description xml:lang="en">gtk3-nocsd is a small module used to disable the client side decoration of Gtk+ 3.</Description>
-        <IsA>programming.misc</IsA>
-        <PartOf>unknown</PartOf>
-        <License>LGPLv2.1</License>
-        <History>
-            <Update release="1">
-                <Date>2019-10-06</Date>
-                <Version>3.0.1</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>70146</InstalledSize>
-        <PackageSize>25368</PackageSize>
-        <PackageHash>a5db91e8643178d45d00e190bd87935d9074c80e</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>n/nocsd/nocsd-3.0.1-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nocsd</Name>
-            <Homepage>https://github.com/ZaWertun/gtk3-nocsd</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>ncmpcpp</Name>
         <Summary xml:lang="en">NCurses Music Player Client (Plus Plus)</Summary>
         <Summary xml:lang="tr">Ncurses tabanlı MPD istemcisi</Summary>
@@ -1565,6 +1341,41 @@
             <Packager>
                 <Name>PisiLinux Community</Name>
                 <Email>admins@pisilinux.org</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>nocsd</Name>
+        <Summary xml:lang="en">A hack to disable gtk+ 3 client side decoration</Summary>
+        <Description xml:lang="en">gtk3-nocsd is a small module used to disable the client side decoration of Gtk+ 3.</Description>
+        <IsA>programming.misc</IsA>
+        <PartOf>unknown</PartOf>
+        <License>LGPLv2.1</License>
+        <History>
+            <Update release="1">
+                <Date>2019-10-06</Date>
+                <Version>3.0.1</Version>
+                <Comment>First build.</Comment>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>farm_yerel</BuildHost>
+        <Distribution>PisiLinux</Distribution>
+        <DistributionRelease>2.0</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>70146</InstalledSize>
+        <PackageSize>25368</PackageSize>
+        <PackageHash>a5db91e8643178d45d00e190bd87935d9074c80e</PackageHash>
+        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
+        <PackageURI>n/nocsd/nocsd-3.0.1-1-p2-x86_64.pisi</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nocsd</Name>
+            <Homepage>https://github.com/ZaWertun/gtk3-nocsd</Homepage>
+            <Packager>
+                <Name>fury</Name>
+                <Email>wascheme@tuta.io</Email>
             </Packager>
         </Source>
     </Package>
@@ -1645,69 +1456,6 @@
         <Source>
             <Name>opusfile</Name>
             <Homepage>http://www.opus-codec.org/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>pavucontrol</Name>
-        <Summary xml:lang="en">PulseAudio Volume Control</Summary>
-        <Summary xml:lang="tr">PulseAudio Ses Denetimi</Summary>
-        <Description xml:lang="en">PulseAudio Volume Control (pavucontrol) is a simple GTK based volume control tool (&quot;mixer&quot;) for the PulseAudio sound server. In contrast to classic mixer tools this one allows you to control both the volume of hardware devices and of each playback stream separately.</Description>
-        <Description xml:lang="tr">pavucontrol, PulseAudio ses sunucusu için basit bir ses denetimi uygulamasıdır. Diğer karıştırıcı araçlara ek olarak, bu uygulama hem donanımsal aygıtların hem de ses akışlarının ses seviyelerini ayarlamanıza izin verir.</Description>
-        <IsA>app:gui</IsA>
-        <PartOf>multimedia.sound</PartOf>
-        <License>GPLv2</License>
-        <RuntimeDependencies>
-            <Dependency>gtk3</Dependency>
-            <Dependency>glib2</Dependency>
-            <Dependency>atkmm</Dependency>
-            <Dependency>gtkmm3</Dependency>
-            <Dependency>glibmm</Dependency>
-            <Dependency>libgcc</Dependency>
-            <Dependency>libsigc++</Dependency>
-            <Dependency>libcanberra</Dependency>
-            <Dependency>pulseaudio-libs</Dependency>
-            <Dependency>libcanberra-gtk3</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="3">
-                <Date>2019-10-03</Date>
-                <Version>4.0</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="2">
-                <Date>2013-07-14</Date>
-                <Version>2.0</Version>
-                <Comment>Version bump.</Comment>
-                <Name>Marcin Bojara</Name>
-                <Email>marcin@pisilinux.org</Email>
-            </Update>
-            <Update release="1">
-                <Date>2012-11-13</Date>
-                <Version>1.0</Version>
-                <Comment>First release</Comment>
-                <Name>Erdinç gültekin</Name>
-                <Email>admins@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>921631</InstalledSize>
-        <PackageSize>133608</PackageSize>
-        <PackageHash>afe169078cb3f2df5734580631022c55e0cc7978</PackageHash>
-        <InstallTarHash>8a01550ebfff8217f99dcf7a59ed839de8dea289</InstallTarHash>
-        <PackageURI>p/pavucontrol/pavucontrol-4.0-3-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>pavucontrol</Name>
-            <Homepage>https://freedesktop.org/software/pulseaudio/pavucontrol/</Homepage>
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
@@ -1955,44 +1703,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>uchardet</Name>
-        <Summary xml:lang="en">uchardet library</Summary>
-        <Description xml:lang="en">uchardet is an encoding detector library, which takes a sequence of bytes in an unknown character encoding without any additional information, and attempts to determine the encoding of the text.</Description>
-        <IsA>library</IsA>
-        <PartOf>programming.misc</PartOf>
-        <License>MPLv1.1</License>
-        <RuntimeDependencies>
-            <Dependency>libgcc</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2019-10-31</Date>
-                <Version>0.0.6</Version>
-                <Comment>First build.</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>513147</InstalledSize>
-        <PackageSize>92195</PackageSize>
-        <PackageHash>b92d5bf19f6638515e57a0af5d1294fd522bfce2</PackageHash>
-        <InstallTarHash>92d0cf2bfe4993501b7437cdd52b0d82f0d415f8</InstallTarHash>
-        <PackageURI>u/uchardet/uchardet-0.0.6-1-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>uchardet</Name>
-            <Homepage>https://www.freedesktop.org/wiki/Software/uchardet/</Homepage>
-            <Packager>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>usb-modeswitch</Name>
         <Summary xml:lang="en">Mode switching tool for broadband devices</Summary>
         <Summary xml:lang="tr">Genişbant cihazlar için kip değiştirme aracı</Summary>
@@ -2228,69 +1938,6 @@
             <Packager>
                 <Name>fury</Name>
                 <Email>wascheme@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>zziplib</Name>
-        <Summary xml:lang="en">libZ-based ZIP-access Library</Summary>
-        <Description xml:lang="en">zziplib provides read access to zipped files in a zip-archive, using compression based solely on free algorithms provided by zlib.</Description>
-        <IsA>app:console</IsA>
-        <IsA>library</IsA>
-        <PartOf>unknown</PartOf>
-        <License>LGPLv2</License>
-        <License>MPL-1.1</License>
-        <License>ZLIB</License>
-        <RuntimeDependencies>
-            <Dependency>libsdl</Dependency>
-            <Dependency>zlib</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="4">
-                <Date>2019-08-03</Date>
-                <Version>0.13.68</Version>
-                <Comment>Ver. bump</Comment>
-                <Name>fury</Name>
-                <Email>wascheme@tuta.io</Email>
-            </Update>
-            <Update release="3">
-                <Date>2016-04-04</Date>
-                <Version>0.13.62</Version>
-                <Comment>Rebuilt with docker</Comment>
-                <Name>İbrahim KARAGÜZEL</Name>
-                <Email>karaguzelibrahim@gmail.com</Email>
-            </Update>
-            <Update release="2">
-                <Date>2013-01-16</Date>
-                <Version>0.13.62</Version>
-                <Comment>Rebuild for 1.0</Comment>
-                <Name>Richard de Bruin</Name>
-                <Email>richdb@pisilinux.org</Email>
-            </Update>
-            <Update release="1">
-                <Date>2012-11-03</Date>
-                <Version>0.13.62</Version>
-                <Comment>First release</Comment>
-                <Name>Osman Erkan</Name>
-                <Email>osman.erkan@pisilinux.org</Email>
-            </Update>
-        </History>
-        <BuildHost>farm_yerel</BuildHost>
-        <Distribution>PisiLinux</Distribution>
-        <DistributionRelease>2.0</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>181130</InstalledSize>
-        <PackageSize>38772</PackageSize>
-        <PackageHash>be420b8032430a6b76cc9ffbca2184fab7b9a7e7</PackageHash>
-        <InstallTarHash>da39a3ee5e6b4b0d3255bfef95601890afd80709</InstallTarHash>
-        <PackageURI>z/zziplib/zziplib-0.13.68-4-p2-x86_64.pisi</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>zziplib</Name>
-            <Homepage>http://zziplib.sourceforge.net/</Homepage>
-            <Packager>
-                <Name>PisiLinux Community</Name>
-                <Email>admins@pisilinux.org</Email>
             </Packager>
         </Source>
     </Package>
